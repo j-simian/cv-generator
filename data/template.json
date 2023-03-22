@@ -1,0 +1,50 @@
+{
+  "name": "First Last",
+  "contact": {
+    "phone": "+XX XXXX XXXXXX",
+    "email": "first.last@provider.com"
+  },
+  "websites": [
+    "https://linkedin.com/in/first.last",
+    "https://github.com/first.last",
+    "https://www.firstlast.com/"
+  ],
+  "sections": {
+    "education": [
+      {
+        "pre": "University Name",
+        "post": "Degree Title",
+        "date": "XXX 20XX - XXX 20XX",
+        "bullets": ["Relevant Courses: Course 1, Course 2"]
+      }
+    ],
+    "experience": [
+      {
+        "pre": "Company Name",
+        "post": "Job Title",
+        "date": "XXX 20XX - XXX 20XX",
+        "bullets": ["Designed XXX", "Implemented XXX", "Achieved XXX"]
+      },
+      {
+        "pre": "Company 2 Name",
+        "post": "Job Title",
+        "date": "XXX 20XX - XXX 20XX",
+        "bullets": ["Designed XXX", "Implemented XXX", "Achieved XXX"]
+      }
+    ],
+    "awards": [
+      {
+        "pre": "Awarding Body",
+        "post": "Award Name",
+        "date": "Date Received",
+        "bullets": ["Awarded for XXX"]
+      }
+    ],
+    "projects": [
+      {
+        "pre": "Project Name",
+        "bullets": ["Description of the project"]
+      }
+    ]
+  }
+}
