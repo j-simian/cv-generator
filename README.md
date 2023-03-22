@@ -12,9 +12,9 @@ This package will generate a CV (`.tex` and `.pdf`) for you from a `.json` input
 ## Options
 
 ```
---dataFile=<filename>.json		A JSON file in the data/ folder containing CV data.
---outputFile=<filename>				The filename to use for output of tex and pdf output
---texOut											Output tex as well as pdf
+--dataFile=<filename>.json  A JSON file in the data/ folder containing CV data.
+--outputFile=<filename>     The filename to use for output of tex and pdf output
+--texOut                    Output tex as well as pdf
 ```
 
 ## Data Format
@@ -36,8 +36,8 @@ The JSON file consists of a single object, containing fields `name`, `contact`, 
       {
         "pre": "<text to appear before bullet point>",
         "post": "<text to appear before bullet point>",
-				"date": "<text to appear right aligned>",
-				"bullets": ["<first bullet point>", "<second bullet point>"]
+        "date": "<text to appear right aligned>",
+        "bullets": ["<first bullet point>", "<second bullet point>"]
       }, ...
     ]
   }
